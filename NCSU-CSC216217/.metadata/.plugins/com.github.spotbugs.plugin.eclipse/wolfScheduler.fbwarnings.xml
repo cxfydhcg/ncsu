@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.7.1" sequence="1" timestamp="1667187683778" analysisTimestamp="1667187678185" release="">
+  <Project projectName="wolfScheduler">
+    <Jar>C:\Users\xufen\Desktop\Summer 2022\wolfScheduler\bin</Jar>
+    <AuxClasspathEntry>C:\Users\xufen\Desktop\Summer 2022\wolfScheduler\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\xufen\.p2\pool\plugins\org.junit.jupiter.api_5.8.1.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\xufen\.p2\pool\plugins\org.junit.jupiter.engine_5.8.1.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\xufen\.p2\pool\plugins\org.junit.jupiter.migrationsupport_5.8.1.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\xufen\.p2\pool\plugins\org.junit.jupiter.params_5.8.1.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\xufen\.p2\pool\plugins\org.junit.platform.commons_1.8.1.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\xufen\.p2\pool\plugins\org.junit.platform.engine_1.8.1.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\xufen\.p2\pool\plugins\org.junit.platform.launcher_1.8.1.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\xufen\.p2\pool\plugins\org.junit.platform.runner_1.8.1.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\xufen\.p2\pool\plugins\org.junit.platform.suite.api_1.8.1.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\xufen\.p2\pool\plugins\org.junit.platform.suite.engine_1.8.1.v20211028-1957.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\xufen\.p2\pool\plugins\org.junit.platform.suite.commons_1.8.1.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\xufen\.p2\pool\plugins\org.junit.vintage.engine_5.8.1.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\xufen\.p2\pool\plugins\org.opentest4j_1.2.0.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\xufen\.p2\pool\plugins\org.apiguardian_1.1.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\xufen\.p2\pool\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\xufen\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\xufen\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\xufen\Desktop\Summer 2022\wolfScheduler\test</SrcDir>
+    <SrcDir>C:\Users\xufen\Desktop\Summer 2022\wolfScheduler\src</SrcDir>
+  </Project>
+  <BugInstance type="UC_USELESS_CONDITION" priority="1" rank="14" abbrev="UC" category="STYLE" first="1">
+    <Class classname="edu.ncsu.csc216.wolf_scheduler.course.Course">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.course.Course" sourcefile="Course.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/course/Course.java"/>
+    </Class>
+    <Method classname="edu.ncsu.csc216.wolf_scheduler.course.Course" name="setName" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.course.Course" start="51" end="93" startBytecode="0" endBytecode="423" sourcefile="Course.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/course/Course.java"/>
+    </Method>
+    <String value="spaceFlag == true"/>
+    <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.course.Course" start="78" end="78" startBytecode="134" endBytecode="134" sourcefile="Course.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/course/Course.java" role="SOURCE_UNREACHABLE_CODE"/>
+    <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.course.Course" start="69" end="69" startBytecode="103" endBytecode="103" sourcefile="Course.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/course/Course.java"/>
+    <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.course.Course" start="69" end="69" startBytecode="103" endBytecode="103" sourcefile="Course.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/course/Course.java"/>
+  </BugInstance>
+  <BugInstance type="UC_USELESS_CONDITION" priority="2" rank="16" abbrev="UC" category="STYLE" first="1">
+    <Class classname="edu.ncsu.csc216.wolf_scheduler.course.Course">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.course.Course" sourcefile="Course.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/course/Course.java"/>
+    </Class>
+    <Method classname="edu.ncsu.csc216.wolf_scheduler.course.Course" name="setName" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.course.Course" start="51" end="93" startBytecode="0" endBytecode="423" sourcefile="Course.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/course/Course.java"/>
+    </Method>
+    <String value="name.length() != 0"/>
+    <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.course.Course" start="51" end="51" startBytecode="25" endBytecode="25" sourcefile="Course.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/course/Course.java"/>
+    <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.course.Course" start="51" end="51" startBytecode="25" endBytecode="25" sourcefile="Course.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/course/Course.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIO">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIO" sourcefile="CourseRecordIO.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIO.java"/>
+    </Class>
+    <Method classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIO" name="readCourseRecords" signature="(Ljava/lang/String;)Ljava/util/ArrayList;" isStatic="true">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIO" start="36" end="69" startBytecode="0" endBytecode="376" sourcefile="CourseRecordIO.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIO.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner" start="566" end="567" startBytecode="0" endBytecode="71" sourcefile="Scanner.java" sourcepath="java/util/Scanner.java"/>
+    </Method>
+    <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIO" start="36" end="36" startBytecode="12" endBytecode="12" sourcefile="CourseRecordIO.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIO.java"/>
+    <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIO" start="36" end="36" startBytecode="12" endBytecode="12" sourcefile="CourseRecordIO.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIO.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIO">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIO" sourcefile="CourseRecordIO.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIO.java"/>
+    </Class>
+    <Method classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIO" name="writeCourseRecords" signature="(Ljava/lang/String;Ljava/util/ArrayList;)V" isStatic="true">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIO" start="129" end="137" startBytecode="0" endBytecode="177" sourcefile="CourseRecordIO.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIO.java"/>
+    </Method>
+    <Method classname="java.io.PrintStream" name="&lt;init&gt;" signature="(Ljava/io/File;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.PrintStream" start="332" end="333" startBytecode="0" endBytecode="69" sourcefile="PrintStream.java" sourcepath="java/io/PrintStream.java"/>
+    </Method>
+    <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIO" start="129" end="129" startBytecode="12" endBytecode="12" sourcefile="CourseRecordIO.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIO.java"/>
+    <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIO" start="129" end="129" startBytecode="12" endBytecode="12" sourcefile="CourseRecordIO.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIO.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Class>
+    <Method classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" name="checkFiles" signature="(Ljava/lang/String;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" start="135" end="147" startBytecode="0" endBytecode="422" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/File;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner" start="639" end="640" startBytecode="0" endBytecode="71" sourcefile="Scanner.java" sourcepath="java/util/Scanner.java"/>
+    </Method>
+    <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" start="135" end="135" startBytecode="17" endBytecode="17" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" start="135" end="135" startBytecode="17" endBytecode="17" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Class>
+    <Field classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" name="invalidTestFile" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Field>
+    <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" start="29" end="29" startBytecode="13" endBytecode="13" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Class>
+    <Field classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" name="validCourse1" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Field>
+    <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" start="32" end="32" startBytecode="19" endBytecode="19" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Class>
+    <Field classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" name="validCourse10" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Field>
+    <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" start="50" end="50" startBytecode="73" endBytecode="73" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Class>
+    <Field classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" name="validCourse11" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Field>
+    <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" start="52" end="52" startBytecode="79" endBytecode="79" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Class>
+    <Field classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" name="validCourse12" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Field>
+    <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" start="54" end="54" startBytecode="85" endBytecode="85" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Class>
+    <Field classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" name="validCourse13" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Field>
+    <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" start="56" end="56" startBytecode="91" endBytecode="91" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Class>
+    <Field classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" name="validCourse2" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Field>
+    <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" start="34" end="34" startBytecode="25" endBytecode="25" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Class>
+    <Field classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" name="validCourse3" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Field>
+    <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" start="36" end="36" startBytecode="31" endBytecode="31" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Class>
+    <Field classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" name="validCourse4" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Field>
+    <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" start="38" end="38" startBytecode="37" endBytecode="37" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Class>
+    <Field classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" name="validCourse5" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Field>
+    <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" start="40" end="40" startBytecode="43" endBytecode="43" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Class>
+    <Field classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" name="validCourse6" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Field>
+    <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" start="42" end="42" startBytecode="49" endBytecode="49" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Class>
+    <Field classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" name="validCourse7" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Field>
+    <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" start="44" end="44" startBytecode="55" endBytecode="55" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Class>
+    <Field classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" name="validCourse8" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Field>
+    <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" start="46" end="46" startBytecode="61" endBytecode="61" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Class>
+    <Field classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" name="validCourse9" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Field>
+    <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" start="48" end="48" startBytecode="67" endBytecode="67" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Class>
+    <Field classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" name="validTestFile" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Field>
+    <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" start="27" end="27" startBytecode="7" endBytecode="7" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+  </BugInstance>
+  <BugInstance type="THROWS_METHOD_THROWS_CLAUSE_BASIC_EXCEPTION" priority="2" rank="16" abbrev="THROWS" category="BAD_PRACTICE" first="1">
+    <Class classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Class>
+    <Method classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" name="setUp" signature="()V" isStatic="false">
+      <SourceLine classname="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" start="69" end="77" startBytecode="0" endBytecode="193" sourcefile="CourseRecordIOTest.java" sourcepath="edu/ncsu/csc216/wolf_scheduler/io/CourseRecordIOTest.java"/>
+    </Method>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sun, 30 Oct 2022 23:41:17 -0400" total_classes="4" referenced_classes="46" total_bugs="21" total_size="735" num_packages="2" java_version="17.0.4" vm_version="17.0.4+8" cpu_seconds="3.39" clock_seconds="5.62" peak_mbytes="1328.87" alloc_mbytes="2048.00" gc_seconds="0.05" priority_2="17" priority_1="4">
+    <PackageStats package="edu.ncsu.csc216.wolf_scheduler.course" total_bugs="2" total_types="2" total_size="604" priority_2="1" priority_1="1">
+      <ClassStats class="edu.ncsu.csc216.wolf_scheduler.course.Course" sourceFile="Course.java" interface="false" size="220" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="edu.ncsu.csc216.wolf_scheduler.course.CourseTest" sourceFile="CourseTest.java" interface="false" size="384" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="edu.ncsu.csc216.wolf_scheduler.io" total_bugs="19" total_types="2" total_size="131" priority_2="16" priority_1="3">
+      <ClassStats class="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIO" sourceFile="CourseRecordIO.java" interface="false" size="52" bugs="2" priority_1="2"/>
+      <ClassStats class="edu.ncsu.csc216.wolf_scheduler.io.CourseRecordIOTest" sourceFile="CourseRecordIOTest.java" interface="false" size="79" bugs="17" priority_2="16" priority_1="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="1927" invocations="2" avgMicrosecondsPerInvocation="963704" maxMicrosecondsPerInvocation="1208524" standardDeviationMicrosecondsPerInvocation="244820"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="539" invocations="596" avgMicrosecondsPerInvocation="904" maxMicrosecondsPerInvocation="92439" standardDeviationMicrosecondsPerInvocation="4113"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="178" invocations="162" avgMicrosecondsPerInvocation="1103" maxMicrosecondsPerInvocation="131470" standardDeviationMicrosecondsPerInvocation="10323"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="163" invocations="603" avgMicrosecondsPerInvocation="271" maxMicrosecondsPerInvocation="3383" standardDeviationMicrosecondsPerInvocation="266"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="145" invocations="46" avgMicrosecondsPerInvocation="3156" maxMicrosecondsPerInvocation="19833" standardDeviationMicrosecondsPerInvocation="4530"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="142" invocations="162" avgMicrosecondsPerInvocation="880" maxMicrosecondsPerInvocation="84344" standardDeviationMicrosecondsPerInvocation="6644"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="138" invocations="171" avgMicrosecondsPerInvocation="807" maxMicrosecondsPerInvocation="80919" standardDeviationMicrosecondsPerInvocation="6209"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="137" invocations="89" avgMicrosecondsPerInvocation="1539" maxMicrosecondsPerInvocation="79722" standardDeviationMicrosecondsPerInvocation="8539"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="128" invocations="168" avgMicrosecondsPerInvocation="763" maxMicrosecondsPerInvocation="22974" standardDeviationMicrosecondsPerInvocation="2883"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="125" invocations="162" avgMicrosecondsPerInvocation="776" maxMicrosecondsPerInvocation="47203" standardDeviationMicrosecondsPerInvocation="3967"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="109" invocations="317" avgMicrosecondsPerInvocation="344" maxMicrosecondsPerInvocation="13171" standardDeviationMicrosecondsPerInvocation="970"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="85" invocations="46" avgMicrosecondsPerInvocation="1865" maxMicrosecondsPerInvocation="8712" standardDeviationMicrosecondsPerInvocation="2366"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" totalMilliseconds="80" invocations="46" avgMicrosecondsPerInvocation="1750" maxMicrosecondsPerInvocation="66804" standardDeviationMicrosecondsPerInvocation="9710"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="66" invocations="46" avgMicrosecondsPerInvocation="1442" maxMicrosecondsPerInvocation="40999" standardDeviationMicrosecondsPerInvocation="5997"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="65" invocations="46" avgMicrosecondsPerInvocation="1429" maxMicrosecondsPerInvocation="13212" standardDeviationMicrosecondsPerInvocation="2721"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="65" invocations="162" avgMicrosecondsPerInvocation="402" maxMicrosecondsPerInvocation="16865" standardDeviationMicrosecondsPerInvocation="1561"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1667187683766" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

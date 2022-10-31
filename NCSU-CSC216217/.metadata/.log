@@ -1,0 +1,571 @@
+!SESSION 2022-10-30 23:38:37.747 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220607-0700
+java.version=17.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-10-30 23:38:52.524
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-30 23:38:52.524
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@16f8df70,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6f0ae0ee,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-30 23:38:52.524
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6de9bba2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2651e783,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-10-30 23:38:57.484
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\xufen'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 4 2 2022-10-30 23:41:17.248
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Fileset from project "LeetCode" has no valid check configuration.
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:313)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: net.sf.eclipsecs.core.util.CheckstylePluginException: Fileset from project "LeetCode" has no valid check configuration.
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:260)
+	... 14 more
+!SUBENTRY 1 net.sf.eclipsecs.core 4 4 2022-10-30 23:41:17.253
+!MESSAGE Fileset from project "LeetCode" has no valid check configuration.
+!STACK 0
+net.sf.eclipsecs.core.util.CheckstylePluginException: Fileset from project "LeetCode" has no valid check configuration.
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:260)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 net.sf.eclipsecs.core 4 4 2022-10-30 23:41:17.253
+!MESSAGE Fileset from project "LeetCode" has no valid check configuration.
+!STACK 0
+net.sf.eclipsecs.core.util.CheckstylePluginException: Fileset from project "LeetCode" has no valid check configuration.
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:260)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2022-10-30 23:41:17.929
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Fileset from project "wolfScheduler" has no valid check configuration.
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:313)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: net.sf.eclipsecs.core.util.CheckstylePluginException: Fileset from project "wolfScheduler" has no valid check configuration.
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:260)
+	... 14 more
+!SUBENTRY 1 net.sf.eclipsecs.core 4 4 2022-10-30 23:41:17.930
+!MESSAGE Fileset from project "wolfScheduler" has no valid check configuration.
+!STACK 0
+net.sf.eclipsecs.core.util.CheckstylePluginException: Fileset from project "wolfScheduler" has no valid check configuration.
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:260)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 net.sf.eclipsecs.core 4 4 2022-10-30 23:41:17.931
+!MESSAGE Fileset from project "wolfScheduler" has no valid check configuration.
+!STACK 0
+net.sf.eclipsecs.core.util.CheckstylePluginException: Fileset from project "wolfScheduler" has no valid check configuration.
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:260)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2022-10-30 23:41:17.964
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 net.sf.eclipsecs.core 4 75 2022-10-30 23:41:17.964
+!MESSAGE Errors running builder 'Checkstyle Builder' on project 'LeetCode'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Fileset from project "LeetCode" has no valid check configuration.
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:313)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: net.sf.eclipsecs.core.util.CheckstylePluginException: Fileset from project "LeetCode" has no valid check configuration.
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:260)
+	... 14 more
+!SUBENTRY 2 net.sf.eclipsecs.core 4 4 2022-10-30 23:41:17.965
+!MESSAGE Fileset from project "LeetCode" has no valid check configuration.
+!STACK 0
+net.sf.eclipsecs.core.util.CheckstylePluginException: Fileset from project "LeetCode" has no valid check configuration.
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:260)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 net.sf.eclipsecs.core 4 4 2022-10-30 23:41:17.965
+!MESSAGE Fileset from project "LeetCode" has no valid check configuration.
+!STACK 0
+net.sf.eclipsecs.core.util.CheckstylePluginException: Fileset from project "LeetCode" has no valid check configuration.
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:260)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 net.sf.eclipsecs.core 4 75 2022-10-30 23:41:17.965
+!MESSAGE Errors running builder 'Checkstyle Builder' on project 'wolfScheduler'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Fileset from project "wolfScheduler" has no valid check configuration.
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:313)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: net.sf.eclipsecs.core.util.CheckstylePluginException: Fileset from project "wolfScheduler" has no valid check configuration.
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:260)
+	... 14 more
+!SUBENTRY 2 net.sf.eclipsecs.core 4 4 2022-10-30 23:41:17.965
+!MESSAGE Fileset from project "wolfScheduler" has no valid check configuration.
+!STACK 0
+net.sf.eclipsecs.core.util.CheckstylePluginException: Fileset from project "wolfScheduler" has no valid check configuration.
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:260)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 net.sf.eclipsecs.core 4 4 2022-10-30 23:41:17.965
+!MESSAGE Fileset from project "wolfScheduler" has no valid check configuration.
+!STACK 0
+net.sf.eclipsecs.core.util.CheckstylePluginException: Fileset from project "wolfScheduler" has no valid check configuration.
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:260)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.656
+!MESSAGE Duplicated Rule found: AvoidReassigningParameters. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.657
+!MESSAGE Duplicated Rule found: UnusedLocalVariable. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.659
+!MESSAGE Duplicated Rule found: ClassNamingConventions. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.660
+!MESSAGE Duplicated Rule found: FieldNamingConventions. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.661
+!MESSAGE Duplicated Rule found: ForLoopsMustUseBraces. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.661
+!MESSAGE Duplicated Rule found: ForLoopsMustUseBraces. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.662
+!MESSAGE Duplicated Rule found: FormalParameterNamingConventions. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.663
+!MESSAGE Duplicated Rule found: IfElseStmtsMustUseBraces. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.664
+!MESSAGE Duplicated Rule found: IfElseStmtsMustUseBraces. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.665
+!MESSAGE Duplicated Rule found: IfStmtsMustUseBraces. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.666
+!MESSAGE Duplicated Rule found: IfStmtsMustUseBraces. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.667
+!MESSAGE Duplicated Rule found: LocalVariableNamingConventions. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.667
+!MESSAGE Duplicated Rule found: MethodNamingConventions. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.669
+!MESSAGE Duplicated Rule found: OneDeclarationPerLine. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.670
+!MESSAGE Duplicated Rule found: VariableNamingConventions. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.671
+!MESSAGE Duplicated Rule found: WhileLoopsMustUseBraces. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.672
+!MESSAGE Duplicated Rule found: WhileLoopsMustUseBraces. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.674
+!MESSAGE Duplicated Rule found: AvoidDeeplyNestedIfStmts. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.675
+!MESSAGE Duplicated Rule found: AvoidDeeplyNestedIfStmts. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.676
+!MESSAGE Duplicated Rule found: CognitiveComplexity. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.677
+!MESSAGE Duplicated Rule found: CollapsibleIfStatements. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.678
+!MESSAGE Duplicated Rule found: CyclomaticComplexity. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.679
+!MESSAGE Duplicated Rule found: CyclomaticComplexity. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.680
+!MESSAGE Duplicated Rule found: ExcessiveClassLength. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.681
+!MESSAGE Duplicated Rule found: ExcessiveMethodLength. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.682
+!MESSAGE Duplicated Rule found: ExcessiveParameterList. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.683
+!MESSAGE Duplicated Rule found: ExcessiveParameterList. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.684
+!MESSAGE Duplicated Rule found: ExcessivePublicCount. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.685
+!MESSAGE Duplicated Rule found: NcssConstructorCount. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.686
+!MESSAGE Duplicated Rule found: NcssMethodCount. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.687
+!MESSAGE Duplicated Rule found: NcssMethodCount. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.688
+!MESSAGE Duplicated Rule found: NcssTypeCount. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.689
+!MESSAGE Duplicated Rule found: NPathComplexity. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.691
+!MESSAGE Duplicated Rule found: StdCyclomaticComplexity. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.692
+!MESSAGE Duplicated Rule found: TooManyFields. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.693
+!MESSAGE Duplicated Rule found: TooManyFields. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.694
+!MESSAGE Duplicated Rule found: TooManyMethods. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.695
+!MESSAGE Duplicated Rule found: AssignmentInOperand. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.696
+!MESSAGE Duplicated Rule found: EmptyCatchBlock. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.697
+!MESSAGE Creating new auxclasspath class loader for project wolfScheduler
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.698
+!MESSAGE Duplicated Rule found: EmptyIfStmt. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.699
+!MESSAGE Duplicated Rule found: EmptyIfStmt. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.700
+!MESSAGE Duplicated Rule found: EmptyStatementBlock. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.702
+!MESSAGE Duplicated Rule found: EmptyWhileStmt. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.704
+!MESSAGE Duplicated Rule found: MethodWithSameNameAsEnclosingClass. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.705
+!MESSAGE Duplicated Rule found: OverrideBothEqualsAndHashcode. This rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2022-10-30 23:41:18.758
+!MESSAGE Creating new auxclasspath class loader for project ReceiptBook
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 2 0 2022-10-30 23:41:18.817
+!MESSAGE Removed misconfigured rule: LoosePackageCoupling  cause: No packages or classes specified
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 2 0 2022-10-30 23:41:21.591
+!MESSAGE There were configuration errors!
+LoosePackageCoupling: No packages or classes specified
+
+
+!ENTRY org.eclipse.core.resources 4 2 2022-10-30 23:41:28.711
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Fileset from project "wolfScheduler" has no valid check configuration.
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:313)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: net.sf.eclipsecs.core.util.CheckstylePluginException: Fileset from project "wolfScheduler" has no valid check configuration.
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:260)
+	... 14 more
+!SUBENTRY 1 net.sf.eclipsecs.core 4 4 2022-10-30 23:41:28.711
+!MESSAGE Fileset from project "wolfScheduler" has no valid check configuration.
+!STACK 0
+net.sf.eclipsecs.core.util.CheckstylePluginException: Fileset from project "wolfScheduler" has no valid check configuration.
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:260)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 net.sf.eclipsecs.core 4 4 2022-10-30 23:41:28.711
+!MESSAGE Fileset from project "wolfScheduler" has no valid check configuration.
+!STACK 0
+net.sf.eclipsecs.core.util.CheckstylePluginException: Fileset from project "wolfScheduler" has no valid check configuration.
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:260)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2022-10-30 23:41:28.714
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 net.sf.eclipsecs.core 4 75 2022-10-30 23:41:28.714
+!MESSAGE Errors running builder 'Checkstyle Builder' on project 'wolfScheduler'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Fileset from project "wolfScheduler" has no valid check configuration.
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:313)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: net.sf.eclipsecs.core.util.CheckstylePluginException: Fileset from project "wolfScheduler" has no valid check configuration.
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:260)
+	... 14 more
+!SUBENTRY 2 net.sf.eclipsecs.core 4 4 2022-10-30 23:41:28.715
+!MESSAGE Fileset from project "wolfScheduler" has no valid check configuration.
+!STACK 0
+net.sf.eclipsecs.core.util.CheckstylePluginException: Fileset from project "wolfScheduler" has no valid check configuration.
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:260)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 net.sf.eclipsecs.core 4 4 2022-10-30 23:41:28.715
+!MESSAGE Fileset from project "wolfScheduler" has no valid check configuration.
+!STACK 0
+net.sf.eclipsecs.core.util.CheckstylePluginException: Fileset from project "wolfScheduler" has no valid check configuration.
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:260)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
